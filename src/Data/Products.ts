@@ -1,4 +1,12 @@
-type Category = "all" | "wok" | "wok-e-food" | "drinks" | "beers";
+type Category = "All" | "Wok" | "E-Food" | "Drinks" | "Beers";
+
+export const categories: Category[] = [
+  "All",
+  "Wok",
+  "E-Food",
+  "Drinks",
+  "Beers",
+];
 
 export interface Product {
   id: number;
@@ -19,115 +27,107 @@ export const products: Product[] = [
     id: 0,
     name: "Noodles",
     price: 5.9,
-    category: "wok",
+    category: "Wok",
     imageUrl: "/images/chicken-noodles.jpg",
   },
   {
     id: 1,
     name: "Egg Noodles",
     price: 5.9,
-    category: "wok",
+    category: "Wok",
     imageUrl: "/images/egg-noodles.jpg",
   },
   {
     id: 2,
     name: "Rice Noodles",
     price: 5.9,
-    category: "wok",
+    category: "Wok",
     imageUrl: "/images/rice-noodles.jpg",
   },
   {
     id: 3,
     name: "White Rice",
     price: 5.9,
-    category: "wok",
+    category: "Wok",
     imageUrl: "/images/e-food-noodles.jpg",
   },
   {
     id: 4,
     name: "Brown Rice",
     price: 5.9,
-    category: "wok",
+    category: "Wok",
     imageUrl: "/images/brown-rice.jpg",
   },
   {
     id: 5,
     name: "Veggie Dish",
     price: 5.9,
-    category: "wok",
+    category: "Wok",
     imageUrl: "/images/veggie-dish.jpg",
   },
   {
     id: 6,
     name: "Coca-Cola",
     price: 1.5,
-    category: "drinks",
+    category: "Drinks",
     imageUrl: "/images/coke.jpg",
   },
   {
     id: 7,
     name: "Coca-Cola Zero",
     price: 1.5,
-    category: "drinks",
+    category: "Drinks",
     imageUrl: "/images/coke-zero.jpg",
   },
   {
     id: 8,
     name: "Fanta Orange",
     price: 1.5,
-    category: "drinks",
+    category: "Drinks",
     imageUrl: "/images/fanta.jpg",
   },
   {
     id: 9,
     name: "Fanta Lemon",
     price: 1.5,
-    category: "drinks",
+    category: "Drinks",
     imageUrl: "/images/fanta-lemon.jpg",
   },
   {
     id: 10,
     name: "Sprite",
     price: 1.5,
-    category: "drinks",
+    category: "Drinks",
     imageUrl: "/images/sprite.jpg",
   },
   {
     id: 11,
     name: "Fuze Tea",
     price: 1.5,
-    category: "drinks",
+    category: "Drinks",
     imageUrl: "/images/fuze-tea.jpg",
   },
   {
     id: 12,
     name: "Schweppes Lemon",
     price: 1.5,
-    category: "drinks",
+    category: "Drinks",
     imageUrl: "/images/schweppes-lemon.jpg",
   },
   {
     id: 13,
     name: "Alfa Beer",
     price: 2,
-    category: "beers",
+    category: "Beers",
     imageUrl: "/images/alfa-beer.jpg",
   },
   {
     id: 14,
     name: "Water",
     price: 0.5,
-    category: "drinks",
+    category: "Drinks",
     imageUrl: "/images/water.jpg",
   },
-];
-
-export const categories: Category[] = [
-  "all",
-  "wok",
-  "wok-e-food",
-  "drinks",
-  "beers",
 ];
 
 export const ingredients: Ingredient[] = [
